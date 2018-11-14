@@ -16,21 +16,12 @@ namespace ClockProgram
         {
           hours=0;
         }
-        Clock myClock = new Clock();
+        Clock myClock = new Clock(hours, minutes);
         Console.WriteLine("The seperation between the clock hands is " 
             + myClock.ClockAngleFinder(hours, minutes) + " degrees.");
 
     }
   }
 
-  public class Clock
-  {
-    public string ClockAngleFinder(int hours, int minutes)
-    {
-      int hourDegrees = hours*30+minutes/2;
-      int minuteDegrees = minutes*6;
-      int degreeDifference = Math.Abs(minuteDegrees-hourDegrees);
-      return degreeDifference.ToString(); 
-    }
-  }
+  
 }
