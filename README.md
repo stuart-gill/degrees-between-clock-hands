@@ -25,14 +25,10 @@ This app that determines the distance in degrees between the minute and hour han
 
 4. To run the program, first navigate to the location of the ClockAngle.cs file then compile and execute:
 ```
-    $ cd ClockAngle/Models
-    $ mcs ClockAngle.cs; mono ClockAngle.exe;
+    $ cd clock
+    $ mono program.exe
 ```
-6. To run the tests, use these commands:
-```
-    $ cd ClockAngler.Tests
-    $ dotnet test
-```
+
 
 ## Known Bugs
 
