@@ -19,7 +19,7 @@ This app that determines the distance in degrees between the minute and hour han
 ```
 2. Change into the work directory::
 ```
-    $ cd ClockAngle.Solution
+    $ cd degrees-between-clock-hands
 ```
 3. To edit the project, open the project in your preferred text editor.
 
